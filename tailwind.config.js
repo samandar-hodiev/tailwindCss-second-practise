@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       // Background images
       backgroundImage: {
-        'header-bg-img': "url('./assets/images/Background Noise.svg')"
+        'header-bg-img': "url('./assets/images/Background Noise.svg')",
+        'bg-noise':"url('./assets/images/bg3.png)"
       },
 
       fontFamily: {
