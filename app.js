@@ -9,9 +9,9 @@ console.log(menuBtn);
 
 
 menuBtn.addEventListener('click',()=>{
-    menuList.classList.toggle('ml-[-100%]');
+    menuList.classList.toggle('hider');
 
-    if(menuList.classList.contains("ml-[-100%]")){
+    if(menuList.classList.contains("hider")){
          menuBtn.innerHTML=`<i class="bx bx-menu-alt-left"></i>`
     }else{
         menuBtn.innerHTML=`<i class="bx bx-x"></i>`;
