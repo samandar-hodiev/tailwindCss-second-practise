@@ -8,12 +8,14 @@ module.exports = {
       // Background images
       backgroundImage: {
         'header-bg-img': "url('./assets/images/Background Noise.svg')",
-        'bg-noise':"url('./assets/images/bg3.png)"
+        'bg-noise':"url('./assets/images/bg3.png)",
+        'ready-foto':"url('./assets/images/Background Noise.png')"
       },
 
       fontFamily: {
         monrope: ["Manrope"],
-        Jakarta: ["Plus Jakarta Sans"]
+        Jakarta: ["Plus Jakarta Sans"],
+        roboto: ["Roboto"]
       }
 
     },

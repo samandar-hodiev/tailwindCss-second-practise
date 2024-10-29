@@ -9,9 +9,9 @@ console.log(menuBtn);
 
 
 menuBtn.addEventListener('click',()=>{
-    menuList.classList.toggle('translate-x-[-1000%]');
+    menuList.classList.toggle('ml-[-100%]');
 
-    if(menuList.classList.contains("translate-x-[-1000%]")){
+    if(menuList.classList.contains("ml-[-100%]")){
          menuBtn.innerHTML=`<i class="bx bx-menu-alt-left"></i>`
     }else{
         menuBtn.innerHTML=`<i class="bx bx-x"></i>`;
